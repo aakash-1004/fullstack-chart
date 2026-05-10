@@ -4,7 +4,7 @@ backend:
   image:
     repository: aakash0908/flask-backend
     tag: v1
-  replicaCount: 1
+  replicaCount: 2
   port: 5000
 
 frontend:
