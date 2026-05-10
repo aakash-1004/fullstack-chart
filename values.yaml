@@ -1,0 +1,24 @@
+namespace: taskmanager
+
+backend:
+  image:
+    repository: aakash0908/flask-backend
+    tag: v1
+  replicaCount: 1
+  port: 5000
+
+frontend:
+  image:
+    repository: aakash0908/express-frontend
+    tag: v1
+  replicaCount: 1
+  port: 3000
+  nodePort: 30001
+
+config:
+  mongoDb: "users_db"
+  mongoCollection: "submissions"
+  flaskBackend: "http://flask-backend-service:5000"
+
+secret:
+  mongoUri: ""

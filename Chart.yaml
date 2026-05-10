@@ -1,0 +1,6 @@
+apiVersion: v2
+name: fullstack-chart
+description: Fullstack app - Express frontend + Flask backend + MongoDB Atlas
+type: application
+version: 0.1.0
+appVersion: "1.0.0"
