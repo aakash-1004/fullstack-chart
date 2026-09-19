@@ -1,4 +1,4 @@
-namespace: taskmanager
+namespace: fullstack-app
 
 backend:
   image:
@@ -20,5 +20,3 @@ config:
   mongoCollection: "submissions"
   flaskBackend: "http://flask-backend-service:5000"
 
-secret:
-  mongoUri: ""
